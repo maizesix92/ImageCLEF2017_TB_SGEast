@@ -1,4 +1,4 @@
-net: "/home/pennychong/caffe/models/resnet/train_val_50_crop_T2_final.prototxt"
+net: "train_val_50_crop_T2_final.prototxt"
 test_iter: 1000
 test_interval: 1000
 display: 1000
@@ -10,5 +10,5 @@ max_iter: 600000
 momentum: 0.9
 weight_decay: 0.0001
 snapshot: 6000
-snapshot_prefix: "/home/share/datagraveyard/tbr-finalSubmission/trainT2_firstArchitecture/"
+snapshot_prefix: "/directory_to_save_model"
 solver_mode: GPU

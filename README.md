@@ -15,12 +15,6 @@ Below shows the performance of our models, based on the evaluation standards of 
 CNN-LSTM model
 
 \ Table eg
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
 \TODO add more stuff
 
 Rank 4 out of 28

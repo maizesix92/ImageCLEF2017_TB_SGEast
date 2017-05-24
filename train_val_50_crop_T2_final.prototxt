@@ -9,11 +9,11 @@ layer {
   }
   transform_param {
     mirror: true
-    mean_file: "/home/share/datagraveyard/tbr-finalSubmission/trainT2_final_mean.binaryproto"
+    mean_file: "trainT2_final_mean.binaryproto"
     crop_size: 192
   }
   image_data_param {
-    source: "/home/share/datagraveyard/tbr-finalSubmission/train_val_T2_final/fulltrain_final.txt"
+    source: "fulltrain_final.txt"
     batch_size: 25
     shuffle: true
     new_height:256
@@ -29,12 +29,12 @@ layer {
     phase: TEST
   }
   transform_param {
-    mean_file: "/home/share/datagraveyard/tbr-finalSubmission/trainT2_final_mean.binaryproto"
+    mean_file: "trainT2_final_mean.binaryproto"
     crop_size: 192
     mirror: true
   }
   image_data_param {
-    source: "/home/share/datagraveyard/tbr-finalSubmission/train_val_T2_final/fullval_final.txt"
+    source: "fullval_final.txt"
     batch_size: 25
     shuffle: true
     new_height:256

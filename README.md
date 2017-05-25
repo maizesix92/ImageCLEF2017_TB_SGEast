@@ -1,5 +1,8 @@
-# Models for ImageCLEF2017: Tuberculosis task (SGEast)
-This repository contains the weights of the neural network structures 
+# Models for ImageCLEF2017: Tuberculosis task (SGEast) -- Repo In Progress
+This repository contains the weights of the neural network structures that we used in the ImageCLEF tuberculosis task. The team would like to share our models for further improvements.
+
+### About us
+
 
 ### About the Task
 The tuberculosis task can be further divided into 2 sub-tasks:
@@ -8,6 +11,12 @@ The tuberculosis task can be further divided into 2 sub-tasks:
 
 More information about the challenge can be found on this website:
 http://www.imageclef.org/2017/tuberculosis
+
+### Libraries Used
+We used 2 libraries for training our neural network. 
+1. Caffe -- https://github.com/BVLC/caffe
+2. Keras (with Theano backend) -- https://keras.io/ & http://deeplearning.net/software/theano/
+
 
 ### Performance
 Below shows the performance of our models, based on the evaluation standards of the ImageCLEF committee. 

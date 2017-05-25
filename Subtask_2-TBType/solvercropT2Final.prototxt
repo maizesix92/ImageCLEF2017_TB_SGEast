@@ -1,0 +1,14 @@
+net: "train_val_50_crop_T2_final.prototxt"
+test_iter: 1000
+test_interval: 1000
+display: 1000
+base_lr: 0.0001
+lr_policy: "step"
+stepsize:150000
+gamma: 0.1
+max_iter: 600000
+momentum: 0.9
+weight_decay: 0.0001
+snapshot: 6000
+snapshot_prefix: "/directory_to_save_model"
+solver_mode: GPU

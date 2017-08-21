@@ -1,4 +1,4 @@
-# Models for ImageCLEF2017: Tuberculosis task (SGEast) -- Repo In Progress
+# Models for ImageCLEF2017: Tuberculosis task (SGEast)
 This repository contains the weights of the neural network structures that we used in the ImageCLEF tuberculosis task. The team would like to share our models for further improvements.
 
 
@@ -46,5 +46,4 @@ If you have used our models, please cite this paper:
 ```
 
 ### Acknowledgements
-Good reference material for Markdown:
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+This work was generously supported by the ST Electronics-SUTD Cyber Security Laboratory. The authors express gratefulness for the ISTD-SUTD start-up funding.
